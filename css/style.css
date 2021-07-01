@@ -1,0 +1,29 @@
+body
+{
+	background-color:white;
+}
+
+a:link, a:visited
+{
+	background-color: gray;
+	color: plum;
+	text-decoration:none;
+	padding: 16px;
+	text-align: center;
+	display: inline-block;
+	font-family: monospace;
+}
+
+a:hover
+{
+	color: lavenderblush;
+	background-color: transparent;
+	text-decoration: inherit;
+}
+
+a:active
+{
+	color: crimson;
+	background-color: azure;
+	text-decoration: underline;
+}

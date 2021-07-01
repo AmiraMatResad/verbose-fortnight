@@ -1,0 +1,27 @@
+table, tr, td, th
+	{
+		border: 1px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+		width: 50%;
+
+	}
+
+tr:nth-child(even)
+	{
+		background-color: gainsboro;
+	}
+
+tr:nth-child(odd)
+	{
+		background-color: lightcyan;
+	}
+th
+	{
+		background-color: lightslategrey;
+	}
+
+tr:hover
+	{
+		background-color: lightskyblue;
+	}
